@@ -28,19 +28,10 @@ moneyFormat(12.99, 'USD'); // RESULT: $12.99
 
 ## Installation
 
-Pull this package through Composer (file `composer.json`)
+Pull this package through Composer
 
-```js
-{
-    "require": {
-        "gerardojbaez/money": "0.*"
-    }
-}
-```
+	composer require mashuble/money
 
-Then run
-
-	composer update
 
 ```php
 <?php
