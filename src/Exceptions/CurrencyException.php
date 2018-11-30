@@ -1,8 +1,8 @@
 <?php
 
-namespace Gerardojbaez\Money\Exceptions;
+namespace Mashuble\Exceptions;
 
 class CurrencyException extends \Exception
 {
- 
+
 }

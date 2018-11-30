@@ -1,8 +1,8 @@
 <?php
 
-use Gerardojbaez\Money\Money;
+use Mashuble\Money;
 use PHPUnit\Framework\TestCase;
-use Gerardojbaez\Money\Currency;
+use Mashuble\Currency;
 
 class MoneyTest extends TestCase
 {

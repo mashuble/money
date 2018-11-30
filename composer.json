@@ -1,12 +1,12 @@
 {
-    "name": "gerardojbaez/money",
+    "name": "mashuble/money",
     "description": "A simple and cross-platform alternative to PHP money_format(). 91 currencies supported, including INR.",
     "keywords": ["money_format", "money", "currency", "formatter"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Gerardo Báez",
-            "email": "gerardojbaez@gmail.com"
+            "name": "Michael TOURNAUD",
+            "email": "ollibrius@gmail.com"
         }
     ],
     "minimum-stability": "dev",
@@ -18,8 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Gerardojbaez\\Money\\": "src/"
-        },
-        "files": ["src/helpers.php"]
+            "Mashuble\\": "src/"
+        }
     }
 }

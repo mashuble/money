@@ -2,7 +2,7 @@
 
 namespace Gerardojbaez\Money;
 
-use Gerardojbaez\Money\Exceptions\CurrencyException;
+use Mashuble\Exceptions\CurrencyException;
 
 class Currency
 {
@@ -347,11 +347,11 @@ class Currency
         'EUR' => [
             'code' => 'EUR',
             'title' => 'Euro',
-            'symbol' => '€ ',
+            'symbol' => '€',
             'precision' => 2,
             'thousandSeparator' => '.',
             'decimalSeparator' => ',',
-            'symbolPlacement' => 'before'
+            'symbolPlacement' => 'after'
         ],
         'GHC' => [
             'code' => 'GHC',

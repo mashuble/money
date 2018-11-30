@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use Gerardojbaez\Money\Currency;
+use Mashuble\Currency;
 
 class CurrencyTest extends TestCase
 {

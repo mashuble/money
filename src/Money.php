@@ -1,6 +1,6 @@
 <?php
 
-namespace Gerardojbaez\Money;
+namespace Mashuble;
 
 class Money
 {
