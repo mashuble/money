@@ -7,7 +7,7 @@ Example:
 ```php
 <?php
 
-$money = new Gerardojbaez\Money\Money(12.99, 'USD')
+$money = new Mashuble\Money(12.99, 'USD')
 $money->format(); // RESULT: $12.99
 
 // You can also use the included helper:
@@ -47,7 +47,7 @@ Then run
 
 require 'vendor/autoload.php';
 
-use Gerardojbaez\Money\Money;
+use Mashuble\Money;
 
 $money = new Money(100);
 $money->format();
@@ -77,7 +77,7 @@ echo moneyFormat(1000000, 'INR'); // RESULT: र10,00,000
 ```php
 <?php
 
-$money = new Gerardojbaez\Money\Money(1000000, 'INR');
+$money = new Mashuble\Money(1000000, 'INR');
 
 echo $money->format(); // RESULT: र10,00,000
 echo $money; // The same as using $money->format()
@@ -92,13 +92,13 @@ To use a custom format, create an instance of the `Currency` class with the desi
 For example:
 
 ```php
-$currency = new Gerardojbaez\Money\Currency('USD');
+$currency = new Mashuble\Currency('USD');
 $currency->setPrecision(3);
 $currency->setThousandSeparator('.');
 $currency->setDecimalSeparator(',');
 $currency->setSymbolPlacement('after');
 
-$money = new Gerardojbaez\Money\Money(1200.9, $currency);
+$money = new Mashuble\Money(1200.9, $currency);
 echo $money; // RESULT: 1.200,900$ (example)
 
 // OR
@@ -117,7 +117,7 @@ echo Money::parse('$1,200.90', 'USD')->toDecimal(); // RESULT: 1200.9
 
 ```php
 
-$currency = new Gerardojbaez\Money\Currency('USD');
+$currency = new Mashuble\Currency('USD');
 echo $currency->getTitle(); // US Dollar
 echo $currency->getCode(); // USD
 echo $currency->getSymbol(); // $
@@ -131,7 +131,7 @@ echo $currency->getDecimalSeparator(); // .
 
 ```php
 
-$currencies = Gerardojbaez\Money\Currency::getAllCurrencies();
+$currencies = Mashuble\Currency::getAllCurrencies();
 
 // Result Example:
 [
