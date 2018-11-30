@@ -19,15 +19,23 @@ class Money
     protected $currency;
 
     /**
+     * Precision
+     *
+     * @var int
+     */
+    protected $precision;
+
+    /**
      * Create new Money Instance
      *
      * @param float|int
      * @param mixed $currency
      * @return void
      */
-    public function __construct($amount, $currency = 'USD')
+    public function __construct($amount, $currency = 'USD', $precision = NULL)
     {
         $this->amount = (float)$amount;
+        $this->precision = (int)$precision;
 
         if (is_string($currency)) {
             $this->currency = (is_string($currency) ? new Currency($currency) : $currency);
@@ -100,7 +108,7 @@ class Money
         // Return western format
         return number_format(
             $this->amount,
-            $this->currency->getPrecision(),
+            $this->precision ? $this->precision : $this->currency->getPrecision(),
             $this->currency->getDecimalSeparator(),
             $this->currency->getThousandSeparator()
         );
