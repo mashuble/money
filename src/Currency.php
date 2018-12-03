@@ -79,7 +79,7 @@ class Currency
             'title' => 'Argentine Peso',
             'symbol' => 'AR$',
             'precision' => 2,
-            'thousandSeparator' => '.',
+            'thousandSeparator' => '', // '.',
             'decimalSeparator' => ',',
             'symbolPlacement' => 'before'
         ],
@@ -88,7 +88,7 @@ class Currency
             'title' => 'Armenian Dram',
             'symbol' => 'Դ',
             'precision' => 2,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -97,7 +97,7 @@ class Currency
             'title' => 'Aruban Guilder',
             'symbol' => 'Afl. ',
             'precision' => 2,
-            'thousandSeparator' => '.',
+            'thousandSeparator' => '', // '.',
             'decimalSeparator' => ',',
             'symbolPlacement' => 'before'
         ],
@@ -106,7 +106,7 @@ class Currency
             'title' => 'Australian Dollar',
             'symbol' => 'AU$',
             'precision' => 2,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -115,7 +115,7 @@ class Currency
             'title' => 'Bahamian Dollar',
             'symbol' => 'B$',
             'precision' => 2,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -124,7 +124,7 @@ class Currency
             'title' => 'Bahraini Dinar',
             'symbol' => null,
             'precision' => 3,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -133,7 +133,7 @@ class Currency
             'title' => 'Bangladesh, Taka',
             'symbol' => null,
             'precision' => 2,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -142,7 +142,7 @@ class Currency
             'title' => 'Belize Dollar',
             'symbol' => 'BZ$',
             'precision' => 2,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -151,7 +151,7 @@ class Currency
             'title' => 'Bermudian Dollar',
             'symbol' => 'BD$',
             'precision' => 2,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -160,7 +160,7 @@ class Currency
             'title' => 'Bolivia, Boliviano',
             'symbol' => 'Bs',
             'precision' => 2,
-            'thousandSeparator' => '.',
+            'thousandSeparator' => '', // '.',
             'decimalSeparator' => ',',
             'symbolPlacement' => 'before'
         ],
@@ -169,7 +169,7 @@ class Currency
             'title' => 'Bosnia and Herzegovina convertible mark',
             'symbol' => 'KM ',
             'precision' => 2,
-            'thousandSeparator' => '.',
+            'thousandSeparator' => '', // '.',
             'decimalSeparator' => ',',
             'symbolPlacement' => 'before'
         ],
@@ -178,7 +178,7 @@ class Currency
             'title' => 'Botswana, Pula',
             'symbol' => 'p',
             'precision' => 2,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -187,7 +187,7 @@ class Currency
             'title' => 'Brazilian Real',
             'symbol' => 'R$',
             'precision' => 2,
-            'thousandSeparator' => '.',
+            'thousandSeparator' => '', // '.',
             'decimalSeparator' => ',',
             'symbolPlacement' => 'before'
         ],
@@ -196,7 +196,7 @@ class Currency
             'title' => 'Brunei Dollar',
             'symbol' => 'B$',
             'precision' => 2,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -205,7 +205,7 @@ class Currency
             'title' => 'Canadian Dollar',
             'symbol' => 'CA$',
             'precision' => 2,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -214,7 +214,7 @@ class Currency
             'title' => 'Cayman Islands Dollar',
             'symbol' => 'CI$',
             'precision' => 2,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -223,7 +223,7 @@ class Currency
             'title' => 'Chilean Peso',
             'symbol' => 'CLP$',
             'precision' => 0,
-            'thousandSeparator' => '.',
+            'thousandSeparator' => '', // '.',
             'decimalSeparator' => '',
             'symbolPlacement' => 'before'
         ],
@@ -232,7 +232,7 @@ class Currency
             'title' => 'China Yuan Renminbi',
             'symbol' => 'CN¥',
             'precision' => 2,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -241,7 +241,7 @@ class Currency
             'title' => 'Colombian Peso',
             'symbol' => 'COL$',
             'precision' => 2,
-            'thousandSeparator' => '.',
+            'thousandSeparator' => '', // '.',
             'decimalSeparator' => ',',
             'symbolPlacement' => 'before'
         ],
@@ -250,7 +250,7 @@ class Currency
             'title' => 'Costa Rican Colon',
             'symbol' => '₡',
             'precision' => 2,
-            'thousandSeparator' => '.',
+            'thousandSeparator' => '', // '.',
             'decimalSeparator' => ',',
             'symbolPlacement' => 'before'
         ],
@@ -259,7 +259,7 @@ class Currency
             'title' => 'Croatian Kuna',
             'symbol' => ' kn',
             'precision' => 2,
-            'thousandSeparator' => '.',
+            'thousandSeparator' => '', // '.',
             'decimalSeparator' => ',',
             'symbolPlacement' => 'after'
         ],
@@ -268,7 +268,7 @@ class Currency
             'title' => 'Cuban Convertible Peso',
             'symbol' => 'CUC$',
             'precision' => 2,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -277,7 +277,7 @@ class Currency
             'title' => 'Cuban Peso',
             'symbol' => 'CUP$',
             'precision' => 2,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -286,7 +286,7 @@ class Currency
             'title' => 'Cyprus Pound',
             'symbol' => '£',
             'precision' => 2,
-            'thousandSeparator' => '.',
+            'thousandSeparator' => '', // '.',
             'decimalSeparator' => ',',
             'symbolPlacement' => 'before'
         ],
@@ -295,7 +295,7 @@ class Currency
             'title' => 'Czech Koruna',
             'symbol' => ' Kč',
             'precision' => 2,
-            'thousandSeparator' => ' ',
+            'thousandSeparator' => '', // ' ',
             'decimalSeparator' => ',',
             'symbolPlacement' => 'after'
         ],
@@ -304,7 +304,7 @@ class Currency
             'title' => 'Danish Krone',
             'symbol' => ' kr.',
             'precision' => 2,
-            'thousandSeparator' => '.',
+            'thousandSeparator' => '', // '.',
             'decimalSeparator' => ',',
             'symbolPlacement' => 'after'
         ],
@@ -313,7 +313,7 @@ class Currency
             'title' => 'Dominican Peso',
             'symbol' => 'RD$',
             'precision' => 2,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -322,7 +322,7 @@ class Currency
             'title' => 'East Caribbean Dollar',
             'symbol' => 'EC$',
             'precision' => 2,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -331,7 +331,7 @@ class Currency
             'title' => 'Egyptian Pound',
             'symbol' => 'EGP',
             'precision' => 2,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -340,7 +340,7 @@ class Currency
             'title' => 'El Salvador Colon',
             'symbol' => '₡',
             'precision' => 2,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -349,7 +349,7 @@ class Currency
             'title' => 'Euro',
             'symbol' => '€',
             'precision' => 2,
-            'thousandSeparator' => ' ',
+            'thousandSeparator' => '', // ' ',
             'decimalSeparator' => ',',
             'symbolPlacement' => 'after'
         ],
@@ -358,7 +358,7 @@ class Currency
             'title' => 'Ghana, Cedi',
             'symbol' => 'GH₵',
             'precision' => 2,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -367,7 +367,7 @@ class Currency
             'title' => 'Gibraltar Pound',
             'symbol' => '£',
             'precision' => 2,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -376,7 +376,7 @@ class Currency
             'title' => 'Guatemala, Quetzal',
             'symbol' => 'Q',
             'precision' => 2,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -385,7 +385,7 @@ class Currency
             'title' => 'Honduras, Lempira',
             'symbol' => 'L',
             'precision' => 2,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -394,7 +394,7 @@ class Currency
             'title' => 'Hong Kong Dollar',
             'symbol' => 'HK$',
             'precision' => 2,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -403,7 +403,7 @@ class Currency
             'title' => 'Hungary, Forint',
             'symbol' => ' Ft',
             'precision' => 0,
-            'thousandSeparator' => ' ',
+            'thousandSeparator' => '', // ' ',
             'decimalSeparator' => '',
             'symbolPlacement' => 'after'
         ],
@@ -412,7 +412,7 @@ class Currency
             'title' => 'Iceland Krona',
             'symbol' => ' kr',
             'precision' => 0,
-            'thousandSeparator' => '.',
+            'thousandSeparator' => '', // '.',
             'decimalSeparator' => '',
             'symbolPlacement' => 'after'
         ],
@@ -421,7 +421,7 @@ class Currency
             'title' => 'Indian Rupee ₹',
             'symbol' => '₹',
             'precision' => 2,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -430,7 +430,7 @@ class Currency
             'title' => 'Indonesia, Rupiah',
             'symbol' => 'Rp',
             'precision' => 2,
-            'thousandSeparator' => '.',
+            'thousandSeparator' => '', // '.',
             'decimalSeparator' => ',',
             'symbolPlacement' => 'before'
         ],
@@ -439,7 +439,7 @@ class Currency
             'title' => 'Iranian Rial',
             'symbol' => null,
             'precision' => 2,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -448,7 +448,7 @@ class Currency
             'title' => 'Jamaican Dollar',
             'symbol' => 'J$',
             'precision' => 2,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -457,7 +457,7 @@ class Currency
             'title' => 'Japan, Yen',
             'symbol' => '¥',
             'precision' => 0,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '',
             'symbolPlacement' => 'before'
         ],
@@ -466,7 +466,7 @@ class Currency
             'title' => 'Jordanian Dinar',
             'symbol' => null,
             'precision' => 3,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -475,7 +475,7 @@ class Currency
             'title' => 'Kenyan Shilling',
             'symbol' => 'KSh',
             'precision' => 2,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -484,7 +484,7 @@ class Currency
             'title' => 'Kuwaiti Dinar',
             'symbol' => 'K.D.',
             'precision' => 3,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -493,7 +493,7 @@ class Currency
             'title' => 'Latvian Lats',
             'symbol' => 'Ls',
             'precision' => 2,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -502,7 +502,7 @@ class Currency
             'title' => 'Lebanese Pound',
             'symbol' => 'LBP',
             'precision' => 0,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '',
             'symbolPlacement' => 'before'
         ],
@@ -511,7 +511,7 @@ class Currency
             'title' => 'Lithuanian Litas',
             'symbol' => ' Lt',
             'precision' => 2,
-            'thousandSeparator' => ' ',
+            'thousandSeparator' => '', // ' ',
             'decimalSeparator' => ',',
             'symbolPlacement' => 'after'
         ],
@@ -520,7 +520,7 @@ class Currency
             'title' => 'Macedonia, Denar',
             'symbol' => 'ден ',
             'precision' => 2,
-            'thousandSeparator' => '.',
+            'thousandSeparator' => '', // '.',
             'decimalSeparator' => ',',
             'symbolPlacement' => 'before'
         ],
@@ -529,7 +529,7 @@ class Currency
             'title' => 'Malaysian Ringgit',
             'symbol' => 'RM',
             'precision' => 2,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -538,7 +538,7 @@ class Currency
             'title' => 'Maltese Lira',
             'symbol' => 'Lm',
             'precision' => 2,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -547,7 +547,7 @@ class Currency
             'title' => 'Mauritius Rupee',
             'symbol' => 'Rs',
             'precision' => 0,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '',
             'symbolPlacement' => 'before'
         ],
@@ -556,7 +556,7 @@ class Currency
             'title' => 'Mexican Peso',
             'symbol' => 'MX$',
             'precision' => 2,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -565,7 +565,7 @@ class Currency
             'title' => 'Mozambique Metical',
             'symbol' => 'MT',
             'precision' => 2,
-            'thousandSeparator' => '.',
+            'thousandSeparator' => '', // '.',
             'decimalSeparator' => ',',
             'symbolPlacement' => 'before'
         ],
@@ -574,7 +574,7 @@ class Currency
             'title' => 'Nepalese Rupee',
             'symbol' => null,
             'precision' => 2,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -583,7 +583,7 @@ class Currency
             'title' => 'Netherlands Antillian Guilder',
             'symbol' => 'NAƒ ',
             'precision' => 2,
-            'thousandSeparator' => '.',
+            'thousandSeparator' => '', // '.',
             'decimalSeparator' => ',',
             'symbolPlacement' => 'before'
         ],
@@ -592,7 +592,7 @@ class Currency
             'title' => 'New Israeli Shekel ₪',
             'symbol' => ' ₪',
             'precision' => 2,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'after'
         ],
@@ -601,7 +601,7 @@ class Currency
             'title' => 'New Turkish Lira',
             'symbol' => '₺',
             'precision' => 2,
-            'thousandSeparator' => '.',
+            'thousandSeparator' => '', // '.',
             'decimalSeparator' => ',',
             'symbolPlacement' => 'before'
         ],
@@ -610,7 +610,7 @@ class Currency
             'title' => 'New Zealand Dollar',
             'symbol' => 'NZ$',
             'precision' => 2,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -619,7 +619,7 @@ class Currency
             'title' => 'Norwegian Krone',
             'symbol' => 'kr ',
             'precision' => 2,
-            'thousandSeparator' => ' ',
+            'thousandSeparator' => '', // ' ',
             'decimalSeparator' => ',',
             'symbolPlacement' => 'before'
         ],
@@ -628,7 +628,7 @@ class Currency
             'title' => 'Pakistan Rupee',
             'symbol' => null,
             'precision' => 2,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -637,7 +637,7 @@ class Currency
             'title' => 'Peru, Nuevo Sol',
             'symbol' => 'S/.',
             'precision' => 2,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -646,7 +646,7 @@ class Currency
             'title' => 'Peso Uruguayo',
             'symbol' => '$U ',
             'precision' => 2,
-            'thousandSeparator' => '.',
+            'thousandSeparator' => '', // '.',
             'decimalSeparator' => ',',
             'symbolPlacement' => 'before'
         ],
@@ -655,7 +655,7 @@ class Currency
             'title' => 'Philippine Peso',
             'symbol' => '₱',
             'precision' => 2,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -664,7 +664,7 @@ class Currency
             'title' => 'Poland, Zloty',
             'symbol' => ' zł',
             'precision' => 2,
-            'thousandSeparator' => ' ',
+            'thousandSeparator' => '', // ' ',
             'decimalSeparator' => ',',
             'symbolPlacement' => 'after'
         ],
@@ -673,7 +673,7 @@ class Currency
             'title' => 'Pound Sterling',
             'symbol' => '£',
             'precision' => 2,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -682,7 +682,7 @@ class Currency
             'title' => 'Rial Omani',
             'symbol' => 'OMR',
             'precision' => 3,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -691,7 +691,7 @@ class Currency
             'title' => 'Romania, New Leu',
             'symbol' => null,
             'precision' => 2,
-            'thousandSeparator' => '.',
+            'thousandSeparator' => '', // '.',
             'decimalSeparator' => ',',
             'symbolPlacement' => 'before'
         ],
@@ -700,7 +700,7 @@ class Currency
             'title' => 'Romania, Old Leu',
             'symbol' => null,
             'precision' => 2,
-            'thousandSeparator' => '.',
+            'thousandSeparator' => '', // '.',
             'decimalSeparator' => ',',
             'symbolPlacement' => 'before'
         ],
@@ -709,7 +709,7 @@ class Currency
             'title' => 'Russian Ruble',
             'symbol' => ' руб',
             'precision' => 2,
-            'thousandSeparator' => ' ',
+            'thousandSeparator' => '', // ' ',
             'decimalSeparator' => ',',
             'symbolPlacement' => 'after'
         ],
@@ -718,7 +718,7 @@ class Currency
             'title' => 'Saudi Riyal',
             'symbol' => 'SAR',
             'precision' => 2,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -727,7 +727,7 @@ class Currency
             'title' => 'Singapore Dollar',
             'symbol' => 'S$',
             'precision' => 2,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -736,7 +736,7 @@ class Currency
             'title' => 'Slovak Koruna',
             'symbol' => ' SKK',
             'precision' => 2,
-            'thousandSeparator' => ' ',
+            'thousandSeparator' => '', // ' ',
             'decimalSeparator' => ',',
             'symbolPlacement' => 'after'
         ],
@@ -745,7 +745,7 @@ class Currency
             'title' => 'Slovenia, Tolar',
             'symbol' => null,
             'precision' => 2,
-            'thousandSeparator' => '.',
+            'thousandSeparator' => '', // '.',
             'decimalSeparator' => ',',
             'symbolPlacement' => 'before'
         ],
@@ -754,7 +754,7 @@ class Currency
             'title' => 'South Africa, Rand',
             'symbol' => 'R',
             'precision' => 2,
-            'thousandSeparator' => ' ',
+            'thousandSeparator' => '', // ' ',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -763,7 +763,7 @@ class Currency
             'title' => 'South Korea, Won ₩',
             'symbol' => '₩',
             'precision' => 0,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '',
             'symbolPlacement' => 'before'
         ],
@@ -772,7 +772,7 @@ class Currency
             'title' => 'Swaziland, Lilangeni',
             'symbol' => 'E',
             'precision' => 2,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -781,16 +781,16 @@ class Currency
             'title' => 'Swedish Krona',
             'symbol' => ' kr',
             'precision' => 2,
-            'thousandSeparator' => ' ',
+            'thousandSeparator' => '', // ' ',
             'decimalSeparator' => ',',
             'symbolPlacement' => 'after'
         ],
         'CHF' => [
             'code' => 'CHF',
             'title' => 'Swiss Franc',
-            'symbol' => 'SFr ',
+            'symbol' => 'CHF ',
             'precision' => 2,
-            'thousandSeparator' => '\'',
+            'thousandSeparator' => '', // '',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -799,7 +799,7 @@ class Currency
             'title' => 'Tanzanian Shilling',
             'symbol' => 'TSh',
             'precision' => 0,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -808,7 +808,7 @@ class Currency
             'title' => 'Thailand, Baht ฿',
             'symbol' => '฿',
             'precision' => 2,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -817,7 +817,7 @@ class Currency
             'title' => 'Tonga, Paanga',
             'symbol' => 'T$ ',
             'precision' => 2,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -826,7 +826,7 @@ class Currency
             'title' => 'UAE Dirham',
             'symbol' => 'AED',
             'precision' => 2,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -835,7 +835,7 @@ class Currency
             'title' => 'Ukraine, Hryvnia',
             'symbol' => ' ₴',
             'precision' => 2,
-            'thousandSeparator' => ' ',
+            'thousandSeparator' => '', // ' ',
             'decimalSeparator' => ',',
             'symbolPlacement' => 'after'
         ],
@@ -844,7 +844,7 @@ class Currency
             'title' => 'US Dollar',
             'symbol' => '$',
             'precision' => 2,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
@@ -853,7 +853,7 @@ class Currency
             'title' => 'Vanuatu, Vatu',
             'symbol' => 'VT',
             'precision' => 0,
-            'thousandSeparator' => ',',
+            'thousandSeparator' => '', // ',',
             'decimalSeparator' => '',
             'symbolPlacement' => 'before'
         ],
@@ -862,7 +862,7 @@ class Currency
             'title' => 'Venezuela Bolivares Fuertes',
             'symbol' => 'Bs.',
             'precision' => 2,
-            'thousandSeparator' => '.',
+            'thousandSeparator' => '', // '.',
             'decimalSeparator' => ',',
             'symbolPlacement' => 'before'
         ],
@@ -871,7 +871,7 @@ class Currency
             'title' => 'Venezuela, Bolivar',
             'symbol' => 'Bs.',
             'precision' => 2,
-            'thousandSeparator' => '.',
+            'thousandSeparator' => '', // '.',
             'decimalSeparator' => ',',
             'symbolPlacement' => 'before'
         ],
@@ -880,7 +880,7 @@ class Currency
             'title' => 'Viet Nam, Dong ₫',
             'symbol' => ' ₫',
             'precision' => 0,
-            'thousandSeparator' => '.',
+            'thousandSeparator' => '', // '.',
             'decimalSeparator' => '',
             'symbolPlacement' => 'after'
         ],
@@ -889,7 +889,7 @@ class Currency
             'title' => 'Zimbabwe Dollar',
             'symbol' => 'Z$',
             'precision' => 2,
-            'thousandSeparator' => ' ',
+            'thousandSeparator' => '', // ' ',
             'decimalSeparator' => '.',
             'symbolPlacement' => 'before'
         ],
