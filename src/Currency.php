@@ -349,7 +349,7 @@ class Currency
             'title' => 'Euro',
             'symbol' => '€',
             'precision' => 2,
-            'thousandSeparator' => '.',
+            'thousandSeparator' => ' ',
             'decimalSeparator' => ',',
             'symbolPlacement' => 'after'
         ],
