@@ -26,16 +26,32 @@ class Money
     protected $precision;
 
     /**
+     * Before Number
+     *
+     * @var int
+     */
+    protected $before;
+
+    /**
+     * After Number
+     *
+     * @var int
+     */
+    protected $after;
+
+    /**
      * Create new Money Instance
      *
      * @param float|int
      * @param mixed $currency
      * @return void
      */
-    public function __construct($amount, $currency = 'USD', $precision = NULL)
+    public function __construct($amount, $currency = 'USD', $precision = NULL, $before = NULL, $after = NULL)
     {
         $this->amount = (float)$amount;
         $this->precision = (int)$precision;
+        $this->before = $before;
+        $this->after = $after;
 
         if (is_string($currency)) {
             $this->currency = (is_string($currency) ? new Currency($currency) : $currency);
@@ -61,7 +77,7 @@ class Money
      */
     public function format()
     {
-        $format = $this->amount();
+        $format = $this->before . $this->amount() . $this->after;
 
         if ($this->currency->getSymbol() === null) {
             $format .= ' '.$this->currency->getCode();
